@@ -28,7 +28,6 @@ while True:
             print(f" ╠════>   %s[{sent}] %s Sending UDP Messages to %s{ip}:{port} %s==> %s[MESSAGE CONTENT: {msg.decode('utf-8')}]" % (fg(50), fg(162), fg(202), fg(1),attr(0)))
             print(f" ║")
             time.sleep(0.2)
-            input("")
         except KeyboardInterrupt:
             print("%sEXIT" % fg(196), attr(0))
             sys.exit()
